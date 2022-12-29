@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-29T06:17:06.237Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="AdJI3xxJNM0tV0kaOsG9" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-29T06:58:04.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="MAS0EayGHeVUIQ1rLRbA" version="20.7.4" type="github">
   <diagram id="0fMKqN4gdKACaCElSQu_" name="페이지-1">
     <mxGraphModel dx="1740" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
       <root>
@@ -139,20 +139,17 @@
         <mxCell id="bcerR9QsptrqEvix5XZz-64" value="docker run &amp;lt;Image name&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="678" y="680" width="172" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bcerR9QsptrqEvix5XZz-65" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;package.json (source)&lt;/b&gt;&lt;br&gt;..&lt;br&gt;&quot;main&quot;: &quot;&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;server.js&lt;/font&gt;&lt;/b&gt;&quot;,&lt;br&gt;&quot;scripts&quot;: {&lt;br&gt;&amp;nbsp; &quot;start&quot;: &quot;&lt;font color=&quot;#3399ff&quot;&gt;&lt;b&gt;node server.js&lt;/b&gt;&lt;/font&gt;&quot;&lt;br&gt;},&lt;br&gt;&quot;&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;dependencies&lt;/font&gt;&lt;/b&gt;&quot;: {&lt;br&gt;&amp;nbsp; &quot;&lt;font color=&quot;#3399ff&quot;&gt;&lt;b&gt;express&lt;/b&gt;&lt;/font&gt;&quot;: &quot;4.16.1&quot;&lt;br&gt;}&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" parent="1" vertex="1">
-          <mxGeometry x="42" y="907" width="318" height="190" as="geometry" />
+        <mxCell id="bcerR9QsptrqEvix5XZz-65" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;package.json (source)&lt;/b&gt;&lt;br&gt;..&lt;br&gt;&quot;main&quot;: &quot;&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;server.js&lt;/font&gt;&lt;/b&gt;&quot;,&lt;br&gt;&quot;scripts&quot;: {&lt;br&gt;&amp;nbsp; &quot;&lt;font color=&quot;#3399ff&quot;&gt;&lt;b&gt;start&lt;/b&gt;&lt;/font&gt;&quot;: &quot;&lt;font color=&quot;#3399ff&quot;&gt;&lt;b&gt;node server.js&lt;/b&gt;&lt;/font&gt;&quot; #npm run start&lt;br&gt;},&lt;br&gt;&quot;&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;dependencies&lt;/font&gt;&lt;/b&gt;&quot;: { #종속성&lt;br&gt;&amp;nbsp; &quot;&lt;font color=&quot;#3399ff&quot;&gt;&lt;b&gt;express&lt;/b&gt;&lt;/font&gt;&quot;: &quot;4.16.1&quot;&lt;br&gt;&amp;nbsp; &quot;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#3399ff&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;redis&lt;/b&gt;&lt;/font&gt;&quot;: &quot;3.0.2&quot;&lt;br&gt;}&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" parent="1" vertex="1">
+          <mxGeometry x="42" y="906" width="318" height="214" as="geometry" />
         </mxCell>
-        <mxCell id="bcerR9QsptrqEvix5XZz-66" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;server.js (source)&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;const express = require(&#39;express&#39;);&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" parent="1" vertex="1">
-          <mxGeometry x="42" y="1107" width="318" height="80" as="geometry" />
+        <mxCell id="bcerR9QsptrqEvix5XZz-66" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;server.js (source)&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;const express = require(&#39;express&#39;);&lt;br&gt;const redis = require(&#39;redis&#39;);&lt;br&gt;&lt;br&gt;const app = express();&lt;br&gt;app.listen(8080);&lt;br&gt;console.log(&#39;Server is running&#39;);&lt;br&gt;&lt;br&gt;const client = redis.createClient({&lt;br&gt;host: &quot;redis-server&quot;,&lt;br&gt;port: 6379&lt;br&gt;});&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="42" y="1133" width="318" height="287" as="geometry" />
         </mxCell>
         <mxCell id="bcerR9QsptrqEvix5XZz-67" value="npm init&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-31" y="907" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bcerR9QsptrqEvix5XZz-71" value="&lt;b&gt;컨테이너&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;b&gt;cmd node server.js&lt;/b&gt; (entry file)&lt;br&gt;node 서버 기동&lt;br&gt;&lt;br&gt;&lt;b&gt;run npm install&lt;br&gt;&lt;/b&gt;node module 설치&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;b&gt;from node (os)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="bcerR9QsptrqEvix5XZz-71" value="&lt;b&gt;Dockerfile&lt;br&gt;&lt;/b&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="670" y="741" width="214" height="329" as="geometry" />
-        </mxCell>
-        <mxCell id="bcerR9QsptrqEvix5XZz-73" value="&lt;b&gt;WORKDIR&lt;/b&gt;&lt;br&gt;/usr/src/app&lt;br&gt;dockerfile&lt;br&gt;package.json&lt;br&gt;server.js" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="717" y="890" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bcerR9QsptrqEvix5XZz-74" value="&lt;b&gt;Local Host&lt;/b&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="932" y="741" width="368" height="329" as="geometry" />
@@ -187,7 +184,7 @@
             <mxPoint x="1049" y="817" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bcerR9QsptrqEvix5XZz-84" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="bcerR9QsptrqEvix5XZz-75" target="bcerR9QsptrqEvix5XZz-73" edge="1">
+        <mxCell id="bcerR9QsptrqEvix5XZz-84" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="bcerR9QsptrqEvix5XZz-75" target="8EyQIspYjVH_8ghCyPmk-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="936" y="877" as="sourcePoint" />
             <mxPoint x="894" y="817.75" as="targetPoint" />
@@ -196,10 +193,7 @@
         <mxCell id="bcerR9QsptrqEvix5XZz-85" value="&lt;b&gt;COPY&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="878" y="890" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bcerR9QsptrqEvix5XZz-86" value="8080" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="860" y="732" width="36" height="31" as="geometry" />
-        </mxCell>
-        <mxCell id="bcerR9QsptrqEvix5XZz-88" value="80" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="bcerR9QsptrqEvix5XZz-88" value="5000" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="920" y="732" width="36" height="31" as="geometry" />
         </mxCell>
         <mxCell id="bcerR9QsptrqEvix5XZz-89" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="bcerR9QsptrqEvix5XZz-88" target="bcerR9QsptrqEvix5XZz-86" edge="1">
@@ -208,20 +202,131 @@
             <mxPoint x="1000" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bcerR9QsptrqEvix5XZz-90" value="docker run -p 80:8080 -v $(pwd):/usr/src/app&lt;br&gt;소스 코드 변경 시 바로반영" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="bcerR9QsptrqEvix5XZz-90" value="docker run -p 80:8080 -v $(pwd):/usr/src/app&lt;br&gt;&lt;b&gt;볼륨 매핑 : &lt;/b&gt;소스 코드 변경 시 바로반영" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="943" y="980" width="346" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="bcerR9QsptrqEvix5XZz-91" value="&lt;b&gt;WORKDIR&lt;/b&gt;&lt;br&gt;/usr/src/app&lt;br&gt;dockerfile&lt;br&gt;package.json&lt;br&gt;server.js" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="717" y="980" width="120" height="80" as="geometry" />
+        <mxCell id="bcerR9QsptrqEvix5XZz-93" value="&lt;b&gt;볼륨매핑&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="883" y="943" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bcerR9QsptrqEvix5XZz-92" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="bcerR9QsptrqEvix5XZz-91" target="bcerR9QsptrqEvix5XZz-75" edge="1">
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-1" value="&lt;b&gt;nodejs 컨테이너&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="430" y="741" width="214" height="329" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-2" value="&lt;b&gt;WORKDIR&lt;/b&gt;&lt;br&gt;/usr/src/app&lt;br&gt;dockerfile&lt;br&gt;package.json&lt;br&gt;server.js" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="470" y="890" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-3" value="NODE" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="462" y="852" width="128" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-4" value="From node:10" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="726.5" y="770" width="101" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8EyQIspYjVH_8ghCyPmk-4" target="8EyQIspYjVH_8ghCyPmk-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="954" y="877" as="sourcePoint" />
+            <mxPoint x="894" y="817.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-7" value="WORKDIR /usr/src.app" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="690" y="807" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="8EyQIspYjVH_8ghCyPmk-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="820" as="sourcePoint" />
+            <mxPoint x="600" y="877" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-9" value="COPY package.json ./" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="690" y="850" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-10" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;entryX=1;entryY=0.294;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="8EyQIspYjVH_8ghCyPmk-9" target="8EyQIspYjVH_8ghCyPmk-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="995" y="940" as="sourcePoint" />
+            <mxPoint x="880" y="875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-11" value="RUN npm install" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="690" y="890.5" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-12" value="npm module&lt;br&gt;express&lt;br&gt;redis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="476" y="973" width="108" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-92" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="8EyQIspYjVH_8ghCyPmk-2" target="bcerR9QsptrqEvix5XZz-75" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="837" y="1020" as="sourcePoint" />
             <mxPoint x="847" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bcerR9QsptrqEvix5XZz-93" value="&lt;b&gt;볼륨매핑&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="878" y="990" width="60" height="30" as="geometry" />
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8EyQIspYjVH_8ghCyPmk-11" target="8EyQIspYjVH_8ghCyPmk-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="875" as="sourcePoint" />
+            <mxPoint x="600" y="949.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-14" value="COPY ./ ./" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="690" y="973" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-15" value="CMD &quot;node&quot;, &quot;server.js&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1010" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-16" value="&lt;b&gt;start server.js&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="462" y="780" width="128" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-17" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8EyQIspYjVH_8ghCyPmk-15" target="8EyQIspYjVH_8ghCyPmk-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="915.5" as="sourcePoint" />
+            <mxPoint x="594" y="1011.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-86" value="8080" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="609" y="732" width="36" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-19" value="redis client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="472" y="808" width="108" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-20" value="&lt;b&gt;redis 컨테이너&lt;/b&gt;&lt;br&gt;&lt;br&gt;docker run redis&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="431" y="1091" width="214" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-21" value="redis server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="484" y="1144" width="108" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-22" value="6379" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="608" y="1080" width="36" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-23" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;docker-compose.yml&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;docker-compose up -d(백그라운드) --build (이미지 유/무 X)&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;version:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;services:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="827.5" y="1119" width="342.5" height="271" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#3399FF;" edge="1" parent="1" source="8EyQIspYjVH_8ghCyPmk-24" target="8EyQIspYjVH_8ghCyPmk-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-24" value="redis-server : 컨테이너 이름" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="842" y="1205" width="168" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontColor=#3399FF;" edge="1" parent="1" source="8EyQIspYjVH_8ghCyPmk-27" target="8EyQIspYjVH_8ghCyPmk-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="1277" />
+              <mxPoint x="400" y="833" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-27" value="node-app : 컨테이너 이름" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="842" y="1273.5" width="168" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#3399FF;" edge="1" parent="1" source="8EyQIspYjVH_8ghCyPmk-30" target="bcerR9QsptrqEvix5XZz-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="777" y="1327" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-30" value="build: . : 현재 디렉토리 Dockerfile" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1312" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-31" value="image : redis (이미지 이름)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1243.5" width="168" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8EyQIspYjVH_8ghCyPmk-32" value="ports:&lt;br&gt;- &quot; 5000:8080&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1350" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
