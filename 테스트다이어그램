@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-29T04:56:58.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="UzPz15X1Zb9mbUtXJ4A0" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-29T06:05:42.384Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Cs4r-Jb4WRW5c4W0e8tN" version="20.7.4" type="github">
   <diagram id="0fMKqN4gdKACaCElSQu_" name="페이지-1">
-    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
+    <mxGraphModel dx="1740" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,6 +84,144 @@
         </mxCell>
         <mxCell id="bcerR9QsptrqEvix5XZz-45" value="git push -u origin master" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="214" y="460" width="248" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-46" value="Dockerfile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="42" y="610" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-47" value="Docker 클라이언트" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="610" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-52" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="172" y="639.5" as="sourcePoint" />
+            <mxPoint x="220" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="bcerR9QsptrqEvix5XZz-53" target="bcerR9QsptrqEvix5XZz-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-53" value="Docker 서버" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="398" y="610" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-54" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="639.5" as="sourcePoint" />
+            <mxPoint x="398" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-55" value="이미지 생성" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="576" y="610" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-56" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="528" y="639.5" as="sourcePoint" />
+            <mxPoint x="576" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-57" value="Working Directory&lt;br&gt;(source file)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="748" width="108" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-58" value="&lt;b&gt;Docker File&lt;br&gt;&lt;/b&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;From&lt;/b&gt; node:10 (baseImage)&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;WORKDIR &lt;/b&gt;/usr/src/app&lt;br&gt;&lt;b&gt;COPY &lt;/b&gt;package.json ./&lt;br&gt;&lt;b&gt;RUN &lt;/b&gt;&lt;font style=&quot;font-weight: bold;&quot; color=&quot;#3399ff&quot;&gt;npm install &lt;/font&gt;(command)&lt;br&gt;&lt;font color=&quot;#3399ff&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(package.json 파일 확인 후 module 설치)&lt;br&gt;&lt;/font&gt;&lt;b&gt;COPY&lt;/b&gt; ./ ./&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;CMD &lt;/b&gt;&quot;node&quot;, &quot;server.js&quot; (command)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="42" y="748" width="318" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-60" value="docker build -t &amp;lt;Image name&amp;gt;./" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="312" y="680" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-62" value="컨테이너" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="754" y="610" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-63" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="706" y="639.5" as="sourcePoint" />
+            <mxPoint x="754" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-64" value="docker run &amp;lt;Image name&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="678" y="680" width="172" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-65" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;package.json (source)&lt;/b&gt;&lt;br&gt;..&lt;br&gt;&quot;main&quot;: &quot;&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;server.js&lt;/font&gt;&lt;/b&gt;&quot;,&lt;br&gt;&quot;scripts&quot;: {&lt;br&gt;&amp;nbsp; &quot;start&quot;: &quot;&lt;font color=&quot;#3399ff&quot;&gt;&lt;b&gt;node server.js&lt;/b&gt;&lt;/font&gt;&quot;&lt;br&gt;},&lt;br&gt;&quot;&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;dependencies&lt;/font&gt;&lt;/b&gt;&quot;: {&lt;br&gt;&amp;nbsp; &quot;&lt;font color=&quot;#3399ff&quot;&gt;&lt;b&gt;express&lt;/b&gt;&lt;/font&gt;&quot;: &quot;4.16.1&quot;&lt;br&gt;}&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="1">
+          <mxGeometry x="42" y="907" width="318" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-66" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;server.js (source)&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;const express = require(&#39;express&#39;);&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="1">
+          <mxGeometry x="42" y="1107" width="318" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-67" value="npm init&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-31" y="907" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-71" value="&lt;b&gt;컨테이너&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;b&gt;cmd node server.js&lt;/b&gt; (entry file)&lt;br&gt;node 서버 기동&lt;br&gt;&lt;br&gt;&lt;b&gt;run npm install&lt;br&gt;&lt;/b&gt;node module 설치&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;b&gt;from node (os)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="670" y="741" width="214" height="319" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-73" value="&lt;b&gt;WORKDIR&lt;/b&gt;&lt;br&gt;/usr/src/app&lt;br&gt;dockerfile&lt;br&gt;package.json&lt;br&gt;server.js" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="717" y="890" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-74" value="&lt;b&gt;Local Host&lt;/b&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="932" y="741" width="368" height="319" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-75" value="Working Directory&lt;br&gt;dockerfile&lt;br&gt;package.json&lt;br&gt;server.js" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="985" y="890" width="108" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-77" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bcerR9QsptrqEvix5XZz-79">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="972" as="sourcePoint" />
+            <mxPoint x="884" y="807.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-78" value="docker build -t (IMG name)by dockerfile" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="944" y="763" width="346" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-79" value="docker run -p 80:8080&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="944" y="852" width="346" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-80" value="docker Image" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="944" y="807" width="346" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-81" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bcerR9QsptrqEvix5XZz-78" target="bcerR9QsptrqEvix5XZz-80">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1039" y="805" as="sourcePoint" />
+            <mxPoint x="1148" y="812" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-82" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bcerR9QsptrqEvix5XZz-80" target="bcerR9QsptrqEvix5XZz-79">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1038" y="830" as="sourcePoint" />
+            <mxPoint x="1049" y="817" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-84" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bcerR9QsptrqEvix5XZz-75" target="bcerR9QsptrqEvix5XZz-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="936" y="877" as="sourcePoint" />
+            <mxPoint x="894" y="817.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-85" value="&lt;b&gt;COPY&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="878" y="890" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-86" value="8080" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="860" y="732" width="36" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-88" value="80" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="920" y="732" width="36" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-89" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bcerR9QsptrqEvix5XZz-88" target="bcerR9QsptrqEvix5XZz-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="840" as="sourcePoint" />
+            <mxPoint x="1000" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-90" value="docker run -p 80:8080 -v $(pwd):/usr/src/app&lt;br&gt;소스 코드 변경 시 바로반영" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="943" y="980" width="346" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-91" value="&lt;b&gt;WORKDIR&lt;/b&gt;&lt;br&gt;/usr/src/app&lt;br&gt;dockerfile&lt;br&gt;package.json&lt;br&gt;server.js" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="717" y="980" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-92" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bcerR9QsptrqEvix5XZz-91" target="bcerR9QsptrqEvix5XZz-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="995" y="940" as="sourcePoint" />
+            <mxPoint x="847" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-93" value="&lt;b&gt;볼륨매핑&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="878" y="990" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
