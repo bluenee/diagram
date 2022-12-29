@@ -1,11 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2022-12-29T01:58:14.280Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="G9CulATBhUrK2BlgodFR" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-29T04:56:58.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="UzPz15X1Zb9mbUtXJ4A0" version="20.7.4" type="github">
   <diagram id="0fMKqN4gdKACaCElSQu_" name="페이지-1">
-    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bcerR9QsptrqEvix5XZz-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="160" width="120" height="60" as="geometry" />
+        <mxCell id="bcerR9QsptrqEvix5XZz-4" value="GITHUB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-5" value="http://github.com" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-6" value="Github Repository 생성" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-7" value="신규&amp;nbsp; Repository default branch(main) 생성" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="140" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-8" value="Local Repository 생성" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-9" value="git init" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="220" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-27" value="Local Repository 저장" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-28" value="git add .(현재 Directory 모두)&lt;br&gt;git commit -m &quot;메세지&quot; &amp;lt;파일명&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="300" width="248" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-29" value="Working Directory&lt;br&gt;(source file)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="300" width="108" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-30" value="Staging Area&lt;br&gt;(Index)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="758" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-31" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="678" y="340" as="sourcePoint" />
+            <mxPoint x="748" y="341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-32" value="git add" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="678" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-33" value="HEAD&lt;br&gt;Local repository" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="968" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="888" y="340" as="sourcePoint" />
+            <mxPoint x="958" y="341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-35" value="git commit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="888" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-36" value="Github&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Remote repository" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1188" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-37" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1108" y="340" as="sourcePoint" />
+            <mxPoint x="1178" y="341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-38" value="git push" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1108" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-39" value="git init" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="998" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-40" value="Git Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="558" y="220" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-41" value="Github Reomote 연결" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="42" y="380" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-42" value="git remote add origin https://github.com/../..git" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="380" width="248" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-44" value="Github repository&lt;br&gt;source upload" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="42" y="460" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcerR9QsptrqEvix5XZz-45" value="git push -u origin master" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="460" width="248" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
