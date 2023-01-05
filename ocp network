@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T07:04:42.674Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Whale/3.18.154.7 Safari/537.36" version="20.8.1" etag="GTYQy-oRXrYMXXGyQHyq" type="github"><diagram id="tPSP4BOMHZIp36L9BttW">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-05T23:56:36.697Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Whale/3.18.154.7 Safari/537.36" version="20.8.1" etag="hZU9SNjFF7sa93soLQwK" type="github">
+  <diagram id="NJzoucy4v7Qf0M_Yvlji" name="페이지-1">
+    <mxGraphModel dx="1418" dy="256" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bZ2yBAqAwMjlOQP9rf94-1" value="OpenShift Container Platform Ingress Operator&lt;br&gt;&lt;br&gt;Ingress Operator -&amp;gt; ingressController API 구현 / 외부 액세스 활성화 하는 구성요소&lt;br&gt;&lt;br&gt;Ingress Operator는 외부 액세스를 위하영 IngressController(HAProxy Based)를 Deploy&lt;br&gt;Ingress Controller는 라우팅 처리를 함.&lt;br&gt;&lt;br&gt;OCP Route / Kubernetes Ingress Resource 지정&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="30" y="90" width="730" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
