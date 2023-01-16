@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T06:03:28.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="kBcVHaXhBZBWBphId7zO" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-16T06:05:16.251Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="EtT_Ed5-HmhmbaLcCF4b" version="20.8.3" type="github">
   <diagram id="ims-KO6UIXv2JzdH9Lco" name="페이지-1">
     <mxGraphModel dx="4685" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
       <root>
@@ -505,7 +505,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <UserObject label="publicDockerImageRepository&lt;br&gt;default-route-openshift-image-registry.apps.l-cloud.co.kr/bpo-jenkins/dev-migtst-bpoweb-int" id="7F8kQjUsj4RNtaUwE0FM-128">
+        <mxCell id="7F8kQjUsj4RNtaUwE0FM-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=60;entryPerimeter=0;fontSize=12;fontColor=#FF0000;strokeColor=#FF0000;strokeWidth=2;dashed=1;" edge="1" parent="1" source="7F8kQjUsj4RNtaUwE0FM-128" target="7F8kQjUsj4RNtaUwE0FM-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2687" y="2325" />
+              <mxPoint x="-2687" y="1777" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="publicDockerImageRepository&lt;br&gt;default-route-openshift-image-registry.apps.l-cloud.co.kr/&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;bpo-jenkins/dev-migtst-bpoweb-int&lt;/b&gt;&lt;/font&gt;" id="7F8kQjUsj4RNtaUwE0FM-128">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
             <mxGeometry x="-2600" y="2290" width="200" height="70" as="geometry" />
           </mxCell>
@@ -534,7 +542,7 @@
         <mxCell id="5jbkmWvGfrYhkpA2Zw-D-22" value="refPVC" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
           <mxGeometry x="-2648.5" y="1922" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7F8kQjUsj4RNtaUwE0FM-67" value="NAS &lt;br&gt;10.210.13.22:/ocp4_infra_pv&lt;br&gt;&lt;div&gt;/root/pv-disk/registry/docker/registry/v2/repositories/bpo-jenkins/dev-migtst-bpoweb-int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="7F8kQjUsj4RNtaUwE0FM-67" value="NAS &lt;br&gt;10.210.13.22:/ocp4_infra_pv&lt;br&gt;&lt;div&gt;/root/pv-disk/registry/docker/registry/v2/repositories&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;/bpo-jenkins/dev-migtst-bpoweb-int&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-2667" y="1717" width="235" height="90" as="geometry" />
         </mxCell>
       </root>
