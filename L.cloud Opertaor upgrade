@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-25T04:22:29.375Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="m95VN2wtk9oivwTFzX8P" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-25T05:34:43.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="CM_dkeqcOYGC2s3lgAO6" type="github">
   <diagram id="usaeXv5N8PBVEGk3QVks" name="페이지-1">
     <mxGraphModel dx="2430" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="4pdSsXnX9UUys1t6fyeT-7" value="podman pull registry.redhat.io/redhat/redhat-operator-index:v4.9" style="text;whiteSpace=wrap;html=1;fontColor=#3333FF;" vertex="1" parent="1">
           <mxGeometry x="-60" y="310" width="370" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4pdSsXnX9UUys1t6fyeT-8" value="podman tag registry.redhat.io/redhat/redhat-operator-index:v4.9 ocpslreg001.sl.l-cloud.local:5000/redhat/redhat-operator-index:v4.9&lt;br&gt;podman push ocpslreg001.sl.l-cloud.local:5000/redhat/redhat-operator-index:v4.9" style="text;whiteSpace=wrap;html=1;fontColor=#3333FF;" vertex="1" parent="1">
+        <mxCell id="4pdSsXnX9UUys1t6fyeT-8" value="podman tag registry.redhat.io/redhat/redhat-operator-index:v4.9 ocpslreg001.sl.l-cloud.local:5000/redhat/redhat-operator-index:v4.9&lt;br&gt;podman push ocpslreg001.sl.l-cloud.local:5000/redhat/redhat-operator-index:v4.9 --tls-verify=false&amp;nbsp;--remove-signatures" style="text;whiteSpace=wrap;html=1;fontColor=#3333FF;" vertex="1" parent="1">
           <mxGeometry x="-570" y="580" width="730" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4pdSsXnX9UUys1t6fyeT-9" value="podman login registry.redhat.io" style="text;whiteSpace=wrap;html=1;fontColor=#3333FF;" vertex="1" parent="1">
