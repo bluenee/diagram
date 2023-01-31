@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T02:16:28.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="mMODySPIYspBs-GvTSgO" version="20.8.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T02:18:12.039Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="JNAqQ1t1Y5liXbSrT2vJ" version="20.8.11" type="github">
   <diagram name="페이지-1" id="q_sS6fkuCAz9SOry0ev4">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
       <root>
@@ -43,9 +43,6 @@
         </mxCell>
         <mxCell id="Q9V5XAA_ytHeRkFrkoQn-13" value="connection ok" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="300" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Q9V5XAA_ytHeRkFrkoQn-15" value="ocpyireg001.yi.l-cloud.local:5000" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="690" y="500" width="280" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
