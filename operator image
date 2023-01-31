@@ -1,1 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T01:59:47.412Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.11" etag="HNXeNufCpYUnyFM3pb_G" type="github"><diagram name="페이지-1" id="q_sS6fkuCAz9SOry0ev4">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-31T02:04:43.359Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="t9xK84JlOWfzkhCqUgbj" version="20.8.11" type="github">
+  <diagram name="페이지-1" id="q_sS6fkuCAz9SOry0ev4">
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q9V5XAA_ytHeRkFrkoQn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q9V5XAA_ytHeRkFrkoQn-1" target="Q9V5XAA_ytHeRkFrkoQn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9V5XAA_ytHeRkFrkoQn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q9V5XAA_ytHeRkFrkoQn-1" target="Q9V5XAA_ytHeRkFrkoQn-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9V5XAA_ytHeRkFrkoQn-1" value="bastion server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9V5XAA_ytHeRkFrkoQn-2" value="ocpyireg001.yi.l-cloud.local:5000" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="200" y="410" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9V5XAA_ytHeRkFrkoQn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q9V5XAA_ytHeRkFrkoQn-4" target="Q9V5XAA_ytHeRkFrkoQn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9V5XAA_ytHeRkFrkoQn-4" value="worker node&lt;br&gt;&lt;br&gt;imgae: registry.redhat.io/openshift-logging/fluentd-rhel8" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="260" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9V5XAA_ytHeRkFrkoQn-7" value="registry.redhat.io&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9V5XAA_ytHeRkFrkoQn-9" value="connection ok" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="30" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9V5XAA_ytHeRkFrkoQn-11" value="connection refused" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
