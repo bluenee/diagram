@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T02:04:43.359Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="t9xK84JlOWfzkhCqUgbj" version="20.8.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T02:11:24.746Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="fnGalPqHPvenKCw_nkga" version="20.8.11" type="github">
   <diagram name="페이지-1" id="q_sS6fkuCAz9SOry0ev4">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="Q9V5XAA_ytHeRkFrkoQn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q9V5XAA_ytHeRkFrkoQn-1" target="Q9V5XAA_ytHeRkFrkoQn-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="340" y="60" />
+              <mxPoint x="340" y="190" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -23,17 +23,26 @@
         <mxCell id="Q9V5XAA_ytHeRkFrkoQn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q9V5XAA_ytHeRkFrkoQn-4" target="Q9V5XAA_ytHeRkFrkoQn-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q9V5XAA_ytHeRkFrkoQn-4" value="worker node&lt;br&gt;&lt;br&gt;imgae: registry.redhat.io/openshift-logging/fluentd-rhel8" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="260" width="250" height="150" as="geometry" />
+        <mxCell id="Q9V5XAA_ytHeRkFrkoQn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Q9V5XAA_ytHeRkFrkoQn-4" target="Q9V5XAA_ytHeRkFrkoQn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9V5XAA_ytHeRkFrkoQn-4" value="worker node&lt;br&gt;&lt;br&gt;daemonset 구동 시 Image 설정&lt;br&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;imgae: registry.redhat.io/openshift-logging/fluentd-rhel8&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="580" y="260" width="600" height="190" as="geometry" />
         </mxCell>
         <mxCell id="Q9V5XAA_ytHeRkFrkoQn-7" value="registry.redhat.io&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="475" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Q9V5XAA_ytHeRkFrkoQn-9" value="connection ok" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="345" y="30" width="90" height="30" as="geometry" />
+          <mxGeometry x="360" y="160" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Q9V5XAA_ytHeRkFrkoQn-11" value="connection refused" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="30" width="120" height="30" as="geometry" />
+          <mxGeometry x="605" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9V5XAA_ytHeRkFrkoQn-12" value="&lt;b&gt;oc get imagecontentsourcepolicies.operator.openshift.io redhat-operator-index -o yaml | grep fluentd&lt;/b&gt;&lt;br&gt;&lt;br&gt;- ocpyireg001.yi.l-cloud.local:5000/openshift4/ose-logging-fluentd&lt;br&gt;&amp;nbsp; &amp;nbsp; source: registry.redhat.io/openshift4/ose-logging-fluentd&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;registry.redhat.io 검색이 안될 경우 bastion server의 registry를 검색하라???&lt;br&gt;Registry Mirror 기능&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="330" width="590" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9V5XAA_ytHeRkFrkoQn-13" value="connection ok" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="300" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
