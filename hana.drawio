@@ -1,14 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2024-01-03T02:02:58.023Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="h4tP1FlEryx52yNkLD_k" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-03T06:58:01.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="La3wbI35hbBNwkkkJRu1" version="22.1.16" type="github">
   <diagram name="페이지-1" id="tnq04b4F43LGUbS93Vyh">
-    <mxGraphModel dx="2261" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1877" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="buBMj44I-SnEIS8_v8h_-15" value="SAP HANA system" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="60" y="210" width="490" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="buBMj44I-SnEIS8_v8h_-9" value="XS advanced application server" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="buBMj44I-SnEIS8_v8h_-9" value="XS advanced application server&lt;br&gt;&amp;nbsp;: SAP HANA extended application services advanced model" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="80" y="240" width="460" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-80" value="xsexecagent" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="424" y="370" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-4" value="xsexecagent&lt;br&gt;&amp;nbsp;: Process manage" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="414" y="360" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-79" value="Platform Router (XSA Web Dispatcher)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="100" y="290" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="buBMj44I-SnEIS8_v8h_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="buBMj44I-SnEIS8_v8h_-1">
           <mxGeometry relative="1" as="geometry">
@@ -21,17 +30,14 @@
         <mxCell id="buBMj44I-SnEIS8_v8h_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="buBMj44I-SnEIS8_v8h_-1" target="buBMj44I-SnEIS8_v8h_-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="buBMj44I-SnEIS8_v8h_-1" value="Platform Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="280" width="120" height="30" as="geometry" />
+        <mxCell id="buBMj44I-SnEIS8_v8h_-1" value="Platform Router (XSA Web Dispatcher)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="90" y="280" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="buBMj44I-SnEIS8_v8h_-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="buBMj44I-SnEIS8_v8h_-3" target="buBMj44I-SnEIS8_v8h_-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="buBMj44I-SnEIS8_v8h_-3" value="xscontroller" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="250" y="360" width="120" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="buBMj44I-SnEIS8_v8h_-4" value="xsexecagent" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="414" y="360" width="120" height="170" as="geometry" />
         </mxCell>
         <mxCell id="buBMj44I-SnEIS8_v8h_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="buBMj44I-SnEIS8_v8h_-10" target="buBMj44I-SnEIS8_v8h_-1">
           <mxGeometry relative="1" as="geometry">
@@ -82,28 +88,39 @@
         <mxCell id="buBMj44I-SnEIS8_v8h_-33" value="Filesystem&lt;br&gt;Broker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="430" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="buBMj44I-SnEIS8_v8h_-34" value="Application&lt;br&gt;instance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="434" y="390" width="80" height="30" as="geometry" />
+        <mxCell id="buBMj44I-SnEIS8_v8h_-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="buBMj44I-SnEIS8_v8h_-34" target="buBMj44I-SnEIS8_v8h_-82">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="474" y="490" />
+              <mxPoint x="530" y="490" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="buBMj44I-SnEIS8_v8h_-35" value="xsuaaserver" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="buBMj44I-SnEIS8_v8h_-34" value="Application&lt;br&gt;instance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="434" y="400" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-35" value="xsuaaserver&lt;br&gt;: User logon, audit" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="100" y="360" width="120" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="buBMj44I-SnEIS8_v8h_-36" value="UAA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="buBMj44I-SnEIS8_v8h_-36" value="UAA&lt;br&gt;(Logon)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="400" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="buBMj44I-SnEIS8_v8h_-37" value="System Database" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="100" y="630" width="120" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="buBMj44I-SnEIS8_v8h_-38" value="&lt;font color=&quot;#ff33ff&quot;&gt;Name Svr&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="buBMj44I-SnEIS8_v8h_-38" value="&lt;font color=&quot;#ff33ff&quot;&gt;Name Svr&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="110" y="672" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="buBMj44I-SnEIS8_v8h_-39" value="Statistics&lt;br&gt;SVC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="696" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="buBMj44I-SnEIS8_v8h_-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="buBMj44I-SnEIS8_v8h_-40" target="buBMj44I-SnEIS8_v8h_-37">
+        <mxCell id="buBMj44I-SnEIS8_v8h_-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="buBMj44I-SnEIS8_v8h_-40" target="buBMj44I-SnEIS8_v8h_-37">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="-290" y="155" />
+              <mxPoint x="-290" y="690" />
               <mxPoint x="-80" y="690" />
+              <mxPoint x="-80" y="775" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -113,17 +130,17 @@
         <mxCell id="buBMj44I-SnEIS8_v8h_-42" value="SQL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-70" y="660" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="buBMj44I-SnEIS8_v8h_-43" value="Statistics&lt;br&gt;SVC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="buBMj44I-SnEIS8_v8h_-43" value="Script SVR&lt;br&gt;(C++)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="740" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="buBMj44I-SnEIS8_v8h_-44" value="Preprocessor&lt;br&gt;SVR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="buBMj44I-SnEIS8_v8h_-44" value="Preprocessor&lt;br&gt;SVR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="120" y="780" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="buBMj44I-SnEIS8_v8h_-45" value="Tenant Database" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="232" y="630" width="120" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="buBMj44I-SnEIS8_v8h_-46" value="&lt;font color=&quot;#ff33ff&quot;&gt;Index Svr&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="242" y="672" width="100" height="60" as="geometry" />
+        <mxCell id="buBMj44I-SnEIS8_v8h_-46" value="&lt;font color=&quot;#ff33ff&quot;&gt;Index Svr&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="242" y="672" width="100" height="118" as="geometry" />
         </mxCell>
         <mxCell id="buBMj44I-SnEIS8_v8h_-47" value="Statistics&lt;br&gt;SVC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="252" y="696" width="80" height="30" as="geometry" />
@@ -131,7 +148,7 @@
         <mxCell id="buBMj44I-SnEIS8_v8h_-48" value="Tenant Database" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="360" y="630" width="120" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="buBMj44I-SnEIS8_v8h_-49" value="&lt;font color=&quot;#ff33ff&quot;&gt;Index Svr&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="buBMj44I-SnEIS8_v8h_-49" value="&lt;font color=&quot;#ff33ff&quot;&gt;Index Svr&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="370" y="672" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="buBMj44I-SnEIS8_v8h_-50" value="Statistics&lt;br&gt;SVC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -157,12 +174,11 @@
         <mxCell id="buBMj44I-SnEIS8_v8h_-57" value="SQL&lt;br&gt;Client&lt;br&gt;APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="300" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="buBMj44I-SnEIS8_v8h_-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="buBMj44I-SnEIS8_v8h_-58" target="buBMj44I-SnEIS8_v8h_-1">
+        <mxCell id="buBMj44I-SnEIS8_v8h_-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="buBMj44I-SnEIS8_v8h_-58" target="buBMj44I-SnEIS8_v8h_-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="570" y="325" />
-              <mxPoint x="570" y="260" />
-              <mxPoint x="150" y="260" />
+              <mxPoint x="570" y="295" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -213,6 +229,33 @@
         </mxCell>
         <mxCell id="buBMj44I-SnEIS8_v8h_-76" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#009900;strokeWidth=4;" vertex="1" parent="1">
           <mxGeometry x="1241.5" y="970" width="159" height="277" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-81" value="Failover Router (SAP Web Dispatcher)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="230" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-82" value="HDI Container" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="696" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-84" value="SQL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-85" value="Compile SVR&lt;br&gt;(Procedure)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="820" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-86" value="sapstartsrv" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="860" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-87" value="XS Classic" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="740" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-89" value="Pool (Free)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1060" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-90" value="DB Management and &lt;br&gt;Temporary Computations&lt;br&gt;(oracle : System, Temp Tablespace)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1130" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-91" value="C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1200" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
