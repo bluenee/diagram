@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-03T06:58:01.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="La3wbI35hbBNwkkkJRu1" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-03T07:02:50.716Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="vDS6Br-ta3YhXrrG2Mmx" version="22.1.16" type="github">
   <diagram name="페이지-1" id="tnq04b4F43LGUbS93Vyh">
     <mxGraphModel dx="1877" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -254,8 +254,35 @@
         <mxCell id="buBMj44I-SnEIS8_v8h_-90" value="DB Management and &lt;br&gt;Temporary Computations&lt;br&gt;(oracle : System, Temp Tablespace)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="1130" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="buBMj44I-SnEIS8_v8h_-91" value="C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="buBMj44I-SnEIS8_v8h_-91" value="Column Tables" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="1200" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-92" value="Row Tables" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1270" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-93" value="System Tables" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1340" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-94" value="Code and Stack&lt;br&gt;(HANA Engine / Coding Program)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1410" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-95" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1060" width="50" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-96" value="Used Memory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="409" y="1250" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-97" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="405" y="1130" width="20" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-98" value="Total Memory Pool&lt;br&gt;(Allocated Memory)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="1215" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-99" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="312" y="1200" width="20" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-102" value="Tables" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="339" y="1285" width="61" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
