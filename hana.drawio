@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-05T02:12:16.130Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="IvDF9CiH43Zn8fRWsvbc" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-05T04:31:38.754Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="VYzZNp1Kj8LXGG6QFJWb" version="22.1.16" type="github">
   <diagram name="페이지-1" id="tnq04b4F43LGUbS93Vyh">
-    <mxGraphModel dx="3052" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3879" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -414,7 +414,7 @@
         <mxCell id="buBMj44I-SnEIS8_v8h_-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="buBMj44I-SnEIS8_v8h_-154" target="buBMj44I-SnEIS8_v8h_-129">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="buBMj44I-SnEIS8_v8h_-154" value="Cockpit Manager User&lt;br&gt;COCK_ADMIN&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="buBMj44I-SnEIS8_v8h_-154" value="Cockpit Manager User&lt;br&gt;COCKPIT_ADMIN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-1620" y="387" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="buBMj44I-SnEIS8_v8h_-156" value="HANA DB : BWD (SID)&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
@@ -439,6 +439,9 @@
         </mxCell>
         <mxCell id="buBMj44I-SnEIS8_v8h_-161" value="SAP Host Agent&lt;br&gt;OS User : bwdadm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-810" y="775.5" width="170" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-162" value="SAPCAR -maanifest SIGNATURE.SM -xvf SAPHANACOCKPIT &amp;lt;version number&amp;gt;.SAR&lt;br&gt;connect hana ssh : &amp;lt;sid&amp;gt;adm&lt;br&gt;login to xsa : xs login&lt;br&gt;xs apps : show list&lt;br&gt;cockpit-admin-web-app : (url) https://&amp;lt;host&amp;gt;:510427&lt;br&gt;cockpit-web-app : (url) https://&amp;lt;host&amp;gt;:51045" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2190" y="391" width="530" height="99" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
