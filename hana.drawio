@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2024-01-05T01:49:55.254Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="U2aLau29ynbCbqecIJyT" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-05T02:11:03.762Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="kcbCwFgBhblxqka_1ART" version="22.1.16" type="github">
   <diagram name="페이지-1" id="tnq04b4F43LGUbS93Vyh">
-    <mxGraphModel dx="3088" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3052" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="buBMj44I-SnEIS8_v8h_-152" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="306.5" width="540" height="213.5" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-119" value="SAP HANA Cockpit host" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="210" width="210" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-125" value="XSA (XS Advanced)" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="-1090" y="217.5" width="190" height="182.5" as="geometry" />
+        </mxCell>
         <mxCell id="buBMj44I-SnEIS8_v8h_-15" value="SAP HANA system" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="60" y="210" width="490" height="730" as="geometry" />
         </mxCell>
@@ -330,6 +339,103 @@
         </mxCell>
         <mxCell id="buBMj44I-SnEIS8_v8h_-114" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="370" y="1020" width="20" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-124" value="DB Exploer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1060" y="225" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="buBMj44I-SnEIS8_v8h_-126" target="buBMj44I-SnEIS8_v8h_-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="buBMj44I-SnEIS8_v8h_-126" target="buBMj44I-SnEIS8_v8h_-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="buBMj44I-SnEIS8_v8h_-126" target="buBMj44I-SnEIS8_v8h_-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-126" value="HANA Cockpit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1060" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="buBMj44I-SnEIS8_v8h_-127" target="buBMj44I-SnEIS8_v8h_-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-127" value="Cockpit Manager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1060" y="314.25" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-128" value="HANA DB&lt;br&gt;(Express Ver)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1060" y="411" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="buBMj44I-SnEIS8_v8h_-129" target="buBMj44I-SnEIS8_v8h_-152">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1260" y="600" />
+              <mxPoint x="-585" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-129" value="Setup Cockpit Users&lt;br&gt;COCKPIT-DEV/TEST/PRD&lt;br&gt;Register/Manage resources&lt;br&gt;DEV(BWD,S4D)&lt;br&gt;TEST(BWQ,S4Q)&lt;br&gt;PRD(BWP,S4P)&lt;br&gt;Manage Groups, Permissions" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1350" y="354" width="180" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-131" value="Resource Group&lt;br&gt;(DEV)" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="355" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-132" value="BWD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="395" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-135" value="S4D" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="445" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-136" value="Resource Group&lt;br&gt;(TEST)" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="355" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-137" value="BWQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="395" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-138" value="S4Q" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="445" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-142" value="Resource Group&lt;br&gt;(PRD)" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="355" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-143" value="BWP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="395" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-144" value="S4P" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="445" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-148" value="Cockpit User :&amp;nbsp;&lt;br&gt;COCKPIT-DEV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-149" value="Cockpit User :&amp;nbsp;&lt;br&gt;COCKPIT-TEST" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="322" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-150" value="Cockpit User :&amp;nbsp;&lt;br&gt;COCKPIT-PRD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-533" y="322" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="buBMj44I-SnEIS8_v8h_-154" target="buBMj44I-SnEIS8_v8h_-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-154" value="Cockpit Manager User&lt;br&gt;COCK_ADMIN&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-1620" y="387" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-156" value="HANA DB : BWD (SID)&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="650" width="190" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-158" value="DB USER : BWD_ADMIN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="681" width="170" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-159" value="DB TECH USER : COCKPIT_MONITOR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="726" width="170" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="buBMj44I-SnEIS8_v8h_-132" target="buBMj44I-SnEIS8_v8h_-159">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-880" y="415" />
+              <mxPoint x="-880" y="746" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="buBMj44I-SnEIS8_v8h_-160" value="COCKPIT SYSTEM ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-995" y="710" width="105" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
